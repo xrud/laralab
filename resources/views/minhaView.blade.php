@@ -81,8 +81,17 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Minha view
                 </div>
+
+                <div>
+                    @foreach ($lista as $key => $value)
+                    <h3>{{$value->nome}}</h3>
+                    @endforeach
+                </div>
+
+                <hr>
+
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
