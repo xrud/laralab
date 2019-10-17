@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::get('/meuController', 'meuController@meuMetodo');
 
 Route::get('/lab/mvc', 'MVClabController@listar');
+
+Route::get('/lab/migrate', 'migrateLabController@retornaView');

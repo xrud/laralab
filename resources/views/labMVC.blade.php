@@ -73,9 +73,9 @@ Route::get('/meuController', 'meuController@meuMetodo');
 Exemplo:
 public function listagem(){
 return (object)[
-(object)["nome"=>"Paulo"],
-(object)["nome"=>"Pamela"],
-(object)["nome"=>"Luiz Roberto"],
+(object)["nome"=>"Dado1"],
+(object)["nome"=>"Dado2"],
+(object)["nome"=>"Dado3"],
 ];
 }
 
