@@ -20,3 +20,5 @@ Route::get('/meuController', 'meuController@meuMetodo');
 Route::get('/lab/mvc', 'MVClabController@listar');
 
 Route::get('/lab/migrate', 'migrateLabController@retornaView');
+
+Route::get('/lab/crud', 'crudGenaratorLabController@index');
