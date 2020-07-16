@@ -22,3 +22,5 @@ Route::get('/lab/mvc', 'MVClabController@listar');
 Route::get('/lab/migrate', 'migrateLabController@retornaView');
 
 Route::get('/lab/crud', 'crudGenaratorLabController@index');
+
+Route::get('/lab/crudNovo', 'crudGenaratorLabController2@index');
