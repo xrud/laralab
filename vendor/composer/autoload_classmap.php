@@ -17,6 +17,7 @@ return array(
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\MVClabController' => $baseDir . '/app/Http/Controllers/MVClabController.php',
     'App\\Http\\Controllers\\crudGenaratorLabController' => $baseDir . '/app/Http/Controllers/crudGenaratorLabController.php',
+    'App\\Http\\Controllers\\crudGenaratorLabController2' => $baseDir . '/app/Http/Controllers/crudGenaratorLabController2.php',
     'App\\Http\\Controllers\\meuController' => $baseDir . '/app/Http/Controllers/meuController.php',
     'App\\Http\\Controllers\\migrateLabController' => $baseDir . '/app/Http/Controllers/migrateLabController.php',
     'App\\Http\\Kernel' => $baseDir . '/app/Http/Kernel.php',

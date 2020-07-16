@@ -445,6 +445,7 @@ class ComposerStaticInit2546260b5420a22ee0d44ec48d7c5742
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Controllers\\MVClabController' => __DIR__ . '/../..' . '/app/Http/Controllers/MVClabController.php',
         'App\\Http\\Controllers\\crudGenaratorLabController' => __DIR__ . '/../..' . '/app/Http/Controllers/crudGenaratorLabController.php',
+        'App\\Http\\Controllers\\crudGenaratorLabController2' => __DIR__ . '/../..' . '/app/Http/Controllers/crudGenaratorLabController2.php',
         'App\\Http\\Controllers\\meuController' => __DIR__ . '/../..' . '/app/Http/Controllers/meuController.php',
         'App\\Http\\Controllers\\migrateLabController' => __DIR__ . '/../..' . '/app/Http/Controllers/migrateLabController.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
