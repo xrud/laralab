@@ -24,3 +24,5 @@ Route::get('/lab/migrate', 'migrateLabController@retornaView');
 Route::get('/lab/crud', 'crudGenaratorLabController@index');
 
 Route::get('/lab/crudNovo', 'crudGenaratorLabController2@index');
+
+Route::get('/sistema', 'CursoCrud@index');
